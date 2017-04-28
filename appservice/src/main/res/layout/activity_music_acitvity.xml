@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+
+    tools:context=".ui.MusicPlayer.MusicAcitvity">
+
+    <TextView
+        android:id="@+id/tv_service"
+        android:text="@string/media_player"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img_mp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/mediaplayer"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:src="@drawable/playit"
+            android:background="@color/transparent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/play" />
+
+        <ImageButton
+            android:id="@+id/btn_stop"
+            android:src="@drawable/stopp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/stop" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

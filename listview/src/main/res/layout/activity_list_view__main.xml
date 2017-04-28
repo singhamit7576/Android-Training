@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.ui.List_View_Main.List_view_Main">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/simple_listview"
+        android:id="@+id/btn_simpleListview"
+        />
+
+    <Button
+        android:id="@+id/btn_withoutholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_baseadapter_without_holder"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_basewithholder"
+        android:layout_width="match_parent"
+        android:text="@string/simple_baseadapterwith_handle"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_expand"
+        android:layout_width="match_parent"
+        android:text="@string/expandable_listview"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btn_grid"
+        android:layout_width="match_parent"
+        android:text="@string/grid_view"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_multicell"
+        android:layout_width="match_parent"
+        android:text="@string/multicell_gridview"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:text="@string/view_pager"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:text="@string/listview_chcekbox"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btn_fragmentpager"
+        android:layout_width="match_parent"
+        android:text="@string/view_pager_fragment"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btn_tablayout"
+        android:layout_width="match_parent"
+        android:text="@string/view_pager_tab"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</LinearLayout>

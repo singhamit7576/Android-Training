@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appservice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity.ServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MusicPlayer.MusicAcitvity" />
+
+        <service
+            android:name=".ui.MusicPlayer.MyService"
+            android:description="@string/myservice"
+            android:exported="false" />
+
+        <activity android:name=".ui.Onbound.BinderActivity" />
+
+        <service
+            android:name=".ui.Onbound.Myservice"
+            android:description="@string/binder"
+            android:exported="false" />
+
+        <activity android:name=".ui.IntentService.IntentActivity"/>
+
+        <service
+            android:name=".ui.IntentService.MyIntentService"
+            android:description="@string/IntentService"
+            android:exported="false" />
+    </application>
+
+
+</manifest>

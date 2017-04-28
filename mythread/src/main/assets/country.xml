@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<record >
+
+
+    <country>
+        <name>India</name>
+        <population>12000000</population>
+
+    </country>
+
+    <country>
+        <name>America</name>
+        <population>12000</population>
+
+    </country>
+
+</record>

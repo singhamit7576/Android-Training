@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AlertDaiolog.Alert_Dailog">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="25sp"
+            android:layout_height="match_parent"
+            android:text="@string/name"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:textColor="@color/red"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_your_name"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_save"
+            android:text="@string/save"
+            android:layout_width="0dp"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btn_close"
+            android:text="@string/exit"
+            android:layout_width="0dp"
+            android:background="@color/red"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_custom_dailog"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="@string/custom_dailog"-->
+            <!--android:background="@color/blue"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="match_parent" />-->
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.broadcast_reciver.ui.DynamicBroadcast.Dynamic_Brodcast_Receiver">
+
+
+
+    <TextView
+        android:id="@+id/txtview"
+        android:text="@string/dynamic_brodcast"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/dynamic_btn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/dyanmic_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

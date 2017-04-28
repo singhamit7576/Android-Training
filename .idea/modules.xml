@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApp.iml" filepath="$PROJECT_DIR$/MyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Storage/Storage.iml" filepath="$PROJECT_DIR$/Storage/Storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionbar/actionbar.iml" filepath="$PROJECT_DIR$/actionbar/actionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appservice/appservice.iml" filepath="$PROJECT_DIR$/appservice/appservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcast_reciver/broadcast_reciver.iml" filepath="$PROJECT_DIR$/broadcast_reciver/broadcast_reciver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentproviderTest/contentproviderTest.iml" filepath="$PROJECT_DIR$/contentproviderTest/contentproviderTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facbookintegration/facbookintegration.iml" filepath="$PROJECT_DIR$/facbookintegration/facbookintegration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maptest/maptest.iml" filepath="$PROJECT_DIR$/maptest/maptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mythread/mythread.iml" filepath="$PROJECT_DIR$/mythread/mythread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitterintegrationtest/twitterintegrationtest.iml" filepath="$PROJECT_DIR$/twitterintegrationtest/twitterintegrationtest.iml" />
+    </modules>
+  </component>
+</project>

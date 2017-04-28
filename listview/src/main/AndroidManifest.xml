@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.listview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ui.List_View_Main.List_view_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ui.simpleListview.Simple_list_view" />
+        <activity android:name="com.ui.listview.MainActivity" />
+        <activity android:name="com.ui.withHolder.ListviewExample" />
+        <activity android:name="com.ui.Expandable_ListView.Expandable_listview" />
+        <activity android:name="com.ui.Gridview.Grid_activity" />
+        <activity android:name="com.ui.Multicell_GridView.Multicell_Activity" />
+        <activity android:name="com.ui.View_Pager.View_Pager_Activity" />
+        <activity android:name="com.ui.View_Pager_Fragment.Activity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.ui.demo.My_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ui.ListviewCheckbox.CheckActivity" />
+        <activity android:name="com.ui.view_pager_Tablayout.Tab_Layout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

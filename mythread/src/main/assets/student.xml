@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<record>
+
+    <student >
+        <name>Amit</name>
+        <address>Delhi</address>
+    </student>
+
+    <student>
+        <name>Surya</name>
+        <address>Ghaziabad</address>
+
+    </student>
+
+    <student>
+        <name>Nikhil</name>
+        <address>Punjab</address>
+
+    </student>
+</record>

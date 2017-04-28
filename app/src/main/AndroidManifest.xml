@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.myapp.ui.login.Loginlayout" />
+        <activity android:name="com.myapp.ui.login.Signuplayout" />
+
+        <!--
+        <activity android:name="com.myapp.ui.intentt.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity android:name="com.myapp.ui.intentt.Two" />
+        <activity android:name="com.myapp.ui.intentt.Intent_Third" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.myapp.ui.Widgets.Relativelayout" />
+        <activity android:name="com.myapp.ui.Widgets.Linearlayout" />
+        <activity android:name="com.myapp.ui.CustomView.Commonactivity" />
+        <activity android:name="com.myapp.ui.Widgets.Tablelayout" />
+        <activity android:name="com.myapp.ui.Widgets.framlayout" />
+        <activity android:name="com.myapp.ui.Widgets.Scrollview" />
+        <activity android:name="com.myapp.ui.CustomView.custom" />
+        <activity android:name="com.myapp.ui.CustomView.DynamicView" />
+        <activity android:name="com.myapp.ui.Drawable.SunAnimation" />
+        <activity android:name="com.myapp.ui.Drawable.NInePatch" />
+        <activity android:name="com.myapp.ui.Widgets.Webvieww" />
+        <activity android:name="com.myapp.ui.Widgets.Radio_Button" />
+        <activity android:name="com.myapp.ui.Widgets.Logfile" />
+        <activity android:name="com.myapp.ui.marshalling.Serialization.Serail_Main" />
+        <activity android:name="com.myapp.ui.marshalling.Serialization.Result_serial" />
+        <activity android:name="com.myapp.ui.marshalling.Parceable.Result_parse" />
+        <activity android:name="com.myapp.ui.activites.NetwrokOperation.Activity_Exception"/>
+        <activity android:name="com.myapp.ui.Freagmentt.MainActivityyy"/>
+
+
+        <activity android:name="com.myapp.ui.mainActivityAll.Mainlayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+      <!--  <activity android:name="com.myapp.ui.activites.communicationviainterface.Networkmain" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity android:name="com.myapp.ui.activites.Inheritance.MainInheritance" />
+
+
+
+
+
+
+        <!--This Acitivity For Implicit Intent-->
+        <!--
+         <activity android:name="com.myapp.ui.ImplicitDemo.ImplicitActivity">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+
+
+          <activity android:name="com.myapp.ui.ImplicitDemo.MYbrowserActivity">
+             <intent-filter>
+                 <action android:name="android.intent.action.VIEW" />
+                 <action android:name="android.intent.action.activity" />
+           <data android:scheme="https" />
+            <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+         </activity>
+        -->
+
+
+
+    </application>
+
+</manifest>

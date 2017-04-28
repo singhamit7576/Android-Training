@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MapTest</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location">Please Select proper Location</string>
+    <string name="noida">NOIDA</string>
+    <string name="hello">Hello</string>
+    <string name="rajasthan">RAJASTHAN</string>
+    <string name="ajmer">AJMER</string>
+    <string name="madhya_pradesh">Madhy Pradesh</string>
+    <string name="india">india</string>
+    <string name="nepal">nepal</string>
+    <string name="indore">Indore</string>
+    <string name="bangladesh">bangladesh</string>
+    <string name="uttar_pradesh">UTTARPRADESH</string>
+    getResources().getString(R.string.mystring);
+</resources>

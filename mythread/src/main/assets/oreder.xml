@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseOrder>
+
+
+
+    <OrderItemDetail>
+
+        <itemNumber>1</itemNumber>
+        <Quantity>200</Quantity>
+
+    </OrderItemDetail>
+
+    <OrderItemDetail>
+
+        <itemNumber>2</itemNumber>
+        <Quantity>900</Quantity>
+
+    </OrderItemDetail>
+
+</PurchaseOrder>

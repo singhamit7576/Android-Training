@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/draw"
+    tools:context="com.myapp.ui.mainActivityAll.Mainlayout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="@string/linear"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_Linear"
+            android:background="@color/red"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="@string/relative"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_relative"
+            android:background="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/fragment"
+            android:layout_marginLeft="10dp"
+            android:background="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_exception"
+            android:layout_width="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Excption"
+            android:background="@color/red"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/table"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btn_Table"
+            android:background="@color/red"/>
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/frame"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/btn_Frame"
+            android:background="@color/red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/scroll"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_Scroll"
+            android:background="@color/red"/>
+
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/custom"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="70dp"
+            android:id="@+id/btn_Custom"
+            android:background="@color/red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/dynamic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_dynamic"
+            android:background="@color/red"/>
+
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/animation"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_animation"
+            android:layout_marginStart="70dp"
+            android:background="@color/red"/>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/web_view"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_Webview"
+            android:background="@color/red"/>
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/radiobtn"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_Radio"
+            android:layout_marginStart="70dp"
+            android:background="@color/red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/ninepatch"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_Ninepatch"
+            android:background="@color/red"/>
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/inheritance"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_inherit"
+            android:layout_marginStart="70dp"
+            android:background="@color/red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/logfile"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_logfile"
+            android:background="@color/red"/>
+        <Button
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/serail"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/btn_serailization"
+            android:layout_marginStart="70dp"
+            android:background="@color/red"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

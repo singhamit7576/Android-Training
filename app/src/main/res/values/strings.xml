@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="implict">CLICK</string>
+    <string name="Serializable">Serializable</string>
+    <string name="parcebale">Parceable</string>
+    <string name="txt1">Enter Number</string>
+    <string name="log">LOg</string>
+    <string name="et_name">ENTER NAME</string>
+    <string name="et_email">ENTER EMAIL</string>
+    <string name="implicit">Implicit Intent</string>
+    <string name="preess">Press</string>
+    <string name="btn">SQUARE</string>
+    <string name="tv2">Result Is</string>
+    <string name="btn2">Go To First Activity</string>
+    <string name="linear">Linear Layout</string>
+    <string name="relative">Relative Layout</string>
+    <string name="frame">frame Layout</string>
+    <string name="table">Table Layout</string>
+    <string name="fragment">frgament</string>
+    <string name="Excption">Exception</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgetpassword">Forget Password ?</string>
+    <string name="checkbox">Remember Me</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="sign">OR SIGN UP WITH</string>
+    <string name="name">Name</string>
+    <string name="confirmpassword">CONFIRM PASSWORD</string>
+    <string name="birth">BIRTHDAY</string>
+    <string name="gender">GENDER</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="strength">STRENGTH WISE</string>
+    <string name="week">WEEK</string>
+    <string name="fitnesswise">FITNESS WISE</string>
+    <string name="fit">VERY FIT</string>
+    <string name="flexibiltyWISE">FLEXIBILE WISE</string>
+    <string name="FLEXIBILE">FLEXIBILE</string>
+    <string name="team">WHTA IS YOUR FAVOURITE PLACE?</string>
+    <string name="prompt">DATE</string>
+    <string name="inida">INDIA</string>
+    <string name="goa">GOA</string>
+    <string name="delhi">DELHI</string>
+    <string name="mumbai">MUMBAI</string>
+    <string name="darzeeling">DARZEELING</string>
+    <string name="shimla">SHIMLA</string>
+    <string name="scroll">SCROLL VIEW</string>
+    <string name="dynamic">Dynamic TEXT ROW</string>
+    <string name="web_view">WEB VIEW</string>
+    <string name="radiobtn">RADIO BUTTON</string>
+    <string name="inheritance">INHEITANCE</string>
+    <string name="ninepatch">NINEPATCH</string>
+    <string name="serail">SERIALIZATION</string>
+    <string name="logfile">LOGFILE</string>
+
+    <string name="custom">Custom Text View</string>
+    <string name="animation">ANIMATION</string>
+    <string name="button">Button</string>
+
+    <string name="normal_btn">Normal Button</string>
+    <string name="patched_imgae">Patched Button</string>
+
+    <string-array name="D">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="month">
+        <item>JANUARY</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+    </string-array>
+    <string-array name="year">
+        <item>1994</item>
+        <item>1995</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+    </string-array>
+    <string name="title_activity_main__fragment">Main_Fragment</string>
+
+
+    <string name="hello_blank_fragment">Welcome To First fragment</string>
+    <string name="hello_blan_fragment">Welcome To Second fragment</string>
+    <string name="welcome_to_android">WELCOME TO ANDROID</string>
+    <string name="welcome_to_india">WELCOME TO INDIA</string>
+    <string name="add">ADD</string>
+    <string name="remove">REMOVE</string>
+    <string name="enter_yr_name">Enter yr name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="two_fragment">Two fragment</string>
+    <string name="hello">Hello</string>
+    <string name="first">First</string>
+    <string name="second">second</string>
+    <string name="third">Third</string>
+    <string name="fourth">Fourth</string>
+    <string name="fifth">Fifth</string>
+    <string name="sixth">Sixth</string>
+    <string name="save">Save</string>
+    <string name="read">Read</string>
+    <string name="welcome">welcome</string>
+    <string name="f_name">F\'Name</string>
+    <string name="android">Android</string>
+
+    <bool name="fragment">false</bool>
+
+
+
+</resources>

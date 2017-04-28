@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DataBase</string>
+    <string name="title_activity_main_activity_lancher">MainActivityLancher</string>
+    <string name="simple_database">Simple DataBase</string>
+    <string name="insertdata">InsertData</string>
+    <string name="new_contact">New Contact</string>
+    <string name="lookup">Lookup</string>
+    <string name="rertive">Rertive</string>
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="update">update</string>
+    <string name="clear">clear</string>
+    <string name="viewall">viewAll</string>
+    <string name="database">DATABASE</string>
+</resources>

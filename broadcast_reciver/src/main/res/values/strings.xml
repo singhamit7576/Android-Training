@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Broadcast_Reciver</string>
+    <string name="broadcaste_reciver">Broadcaste Reciver</string>
+    <string name="static_broadcast">Static Broadcast</string>
+    <string name="dyanmic_broadcast">Dyanmic Broadcast</string>
+    <string name="dynamic_brodcast">Dynamic Brodcast</string>
+</resources>

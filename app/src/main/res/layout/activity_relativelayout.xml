@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.myapp.ui.Widgets.Relativelayout">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/red"
+        android:text="First"
+        android:gravity="center"
+        android:id="@+id/tx1"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="@color/Yellow"
+        android:text="second"
+        android:layout_toRightOf="@+id/tx1"
+        android:background="@color/black"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tx1"
+        android:layout_marginTop="200dp"
+        android:text="Third"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:text="Fourth"
+        android:background="@color/pink"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="40dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_height="40dp" />
+</RelativeLayout>

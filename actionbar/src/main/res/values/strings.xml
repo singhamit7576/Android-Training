@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MY APP</string>
+    <string name="share">share</string>
+    <string name="search">Search</string>
+    <string name="reset">Reset</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="click">click</string>
+</resources>

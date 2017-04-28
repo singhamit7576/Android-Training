@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ContentProviderTest</string>
+    <string name="laoding_all_contacts">Laoding All Contacts</string>
+    <string name="own_content_provider">Own Content Provider</string>
+    <string name="title">title</string>
+    <string name="content">content</string>
+    <string name="add">Add</string>
+    <string name="delete">delete</string>
+    <string name="Name">Name</string>
+    <string name="save">Save</string>
+    <string name="Add">Add</string>
+    <string name="retrive">Retrive</string>
+    <string name="enter_book_title">Enter Book Title</string>
+    <string name="enter_isbn">Enter ISBN</string>
+    <string name="deletedata">delete Data</string>
+</resources>

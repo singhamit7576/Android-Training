@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppService</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="myservice">MY SERVICE</string>
+    <string name="media_player">Media Player</string>
+    <string name="music_service">Music Service</string>
+    <string name="binder_service">Binder Service</string>
+    <string name="binder">My BINDER SERVICE</string>
+    <string name="IntentService">IntentService</string>
+    <string name="intent_service">Intent Service</string>
+</resources>

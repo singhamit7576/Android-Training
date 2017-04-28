@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mythread.ui.Thread.Handler_Acitvity">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="25dp"
+        android:text="@string/handler"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_update"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

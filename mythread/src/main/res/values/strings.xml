@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyThread</string>
+    <string name="my_thread">My Thread</string>
+    <string name="thread">Thread</string>
+    <string name="timer_thread">Timer Thread</string>
+    <string name="handler_thread">Handler_thread</string>
+    <string name="asyn_task">Asyn task</string>
+    <string name="handler">Handler</string>
+    <string name="start">start</string>
+    <string name="asyntask">AsynTask</string>
+    <string name="background_asyn">Background Asyn</string>
+    <string name="timer_download_data">Timer Download Data</string>
+    <string name="handler_data">Handler_data</string>
+    <string name="handlerr">Handlerr</string>
+    <string name="xml_parse">XML PARSE</string>
+    <string name="xml_parse_list">Xml_Parse_List</string>
+    <string name="texteview">Texteview</string>
+    <string name="xml">XML</string>
+    <string name="json_parse">Json Parse</string>
+    <string name="json">JSON</string>
+    <string name="json_list">Json List</string>
+    <string name="jason_expand">JASON EXPAND</string>
+    <string name="toobject">ToObject</string>
+    <string name="tojson">Tojson</string>
+</resources>

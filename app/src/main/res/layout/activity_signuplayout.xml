@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/blackish"
+    tools:context="com.myapp.ui.login.Signuplayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp">
+
+        <EditText
+            android:id="@+id/edittxt_name"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/nameicon"
+            android:background="@drawable/email_box"
+            android:hint="@string/name"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:id="@+id/edtxt_email"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/email_icon"
+            android:background="@drawable/email_box"
+            android:hint="@string/email"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ed_txt_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/password_icon"
+                android:background="@drawable/password_box"
+                android:drawablePadding="5dp"
+                android:hint="@string/password"
+                android:inputType="textPassword|numberPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/et_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/confirmpassword"
+                android:background="@drawable/password_box"
+                android:drawablePadding="5dp"
+                android:inputType="numberPassword|textPassword" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/email_box">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/birthdate_icon"
+            android:background="@drawable/email_box"
+            android:hint="@string/birth"
+            android:gravity="center|start"/>
+
+        <Spinner
+            android:id="@+id/date_spinner"
+            android:backgroundTint="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/D"
+            android:layout_toLeftOf="@+id/month_Spinner"
+            android:gravity="center">
+
+        </Spinner>
+        <Spinner
+            android:id="@+id/month_Spinner"
+            android:backgroundTint="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:entries="@array/month"
+            android:layout_toLeftOf="@+id/year_spinner">
+
+        </Spinner>
+        <Spinner
+            android:id="@+id/year_spinner"
+            android:backgroundTint="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/year"
+            android:layout_alignParentRight="true">
+
+        </Spinner>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/email_box"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/gen"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/gender_icon"
+                android:background="@drawable/email_box"
+                android:hint="@string/gender"
+                android:gravity="center|start"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textmale"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/male"
+                android:layout_weight="1"
+                android:textColor="@color/red"/>
+            <Switch
+                android:id="@+id/mswitch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/pink"/>
+
+            <TextView
+                android:id="@+id/txtfemale"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/female"
+                android:textColor="@color/blue"
+                android:textSize="20sp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/strength_icon"
+                android:drawablePadding="5dp"
+                android:text="@string/strength"
+                android:gravity="start|bottom"
+                android:textColor="@color/blue"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/week"
+                android:textColor="@color/Yellow"
+                android:gravity="end|bottom"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/seek1"
+                android:theme="@style/Custom_Theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:max="5"
+                android:progress="1"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/fitness_icon"
+                android:drawablePadding="5dp"
+                android:text="@string/fitnesswise"
+                android:gravity="bottom|start"
+                android:textColor="@color/blue"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/fit"
+                android:textColor="@color/orange"
+                android:gravity="end|bottom"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/seek2"
+                android:theme="@style/Custom_Theme1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="4"
+                android:progress="3"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/flexibilty_icon"
+                android:drawablePadding="5dp"
+                android:text="@string/flexibiltyWISE"
+                android:gravity="start|bottom"
+                android:textColor="@color/blue"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/FLEXIBILE"
+                android:textColor="@color/sky"
+                android:gravity="end|bottom"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/seek3"
+                android:theme="@style/Custom_Theme2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="5"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/signup"
+            android:background="@color/Yellow"
+            android:textColor="@color/white"
+            android:drawableRight="@drawable/forwordarrow" />
+    </LinearLayout>
+
+</LinearLayout>

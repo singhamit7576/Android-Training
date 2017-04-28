@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.MainActivity">
+
+    <Button
+        android:id="@+id/btn_alertDailog"
+        android:text="@string/alert_dailog"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/btn_alertDailog"
+        android:id="@+id/btn_custom"
+        android:text="@string/custom_dialog"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/btn_custom"
+        android:id="@+id/btn_DatePicker"
+        android:text="@string/date_picker"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/progress_bar"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/btn_DatePicker"/>
+
+
+    <Button
+        android:id="@+id/btn_DailogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mydialogfragment"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/btn_progressbar"/>
+
+
+
+</RelativeLayout>

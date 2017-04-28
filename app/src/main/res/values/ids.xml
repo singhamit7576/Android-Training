@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnlogin" type="id" />
+    <item name="btnsignup" type="id" />
+    <item name="btn88" type="id" />
+    <item name="btn8" type="id" />
+</resources>

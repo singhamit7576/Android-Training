@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="add">Add</string>
+    <string name="remove">remove</string>
+    <string name="simple_listview">simple ListView</string>
+    <string name="simple_baseadapter_without_holder">simple BaseAdapter without holder</string>
+    <string name="simple_baseadapterwith_handle">simple BaseAdapterwith handle</string>
+    <string name="multicell_listview">multicell Listview</string>
+    <string name="expandable_listview">Expandable Listview</string>
+    <string name="grid_view">Grid View</string>
+    <string name="multicell_gridview">Multicell gridview</string>
+    <string name="view_pager">View Pager</string>
+    <string name="listview_chcekbox">Listview ChcekBox</string>
+    <string name="accept">Accept</string>
+    <string name="accepted">Accepted</string>
+    <string name="declined">Declined</string>
+    <string name="decline">decline</string>
+    <string name="count">Count</string>
+    <string name="view_pager_fragment">View Pager Fragment</string>
+    <string name="view_pager_tab">view pager_tab</string>
+    <string name="tab_1">TAB 1</string>
+    <string name="tab2">TAB2</string>
+    <string name="tab3">TAB3</string>
+    <string name="click">click</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+</resources>

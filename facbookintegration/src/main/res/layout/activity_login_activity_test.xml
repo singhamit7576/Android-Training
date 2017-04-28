@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivityTest"
+    android:orientation="vertical">
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/tv_info"-->
+    <!--android:textSize="18sp"-->
+    <!--/>-->
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/picture"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="200sp"
+        android:layout_height="200sp"/>
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btn_details"
+        android:text="@string/show_details"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_share"
+        android:text="@string/share"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_delete_post"
+        android:layout_gravity="center"
+        android:text="@string/delete_post"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+

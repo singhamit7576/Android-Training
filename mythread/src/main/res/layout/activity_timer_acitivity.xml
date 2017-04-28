@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mythread.ui.Thread.TimerAcitivity">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="25dp"
+        android:text="@string/my_thread"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="50dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="10"
+        android:padding="4dip" >
+
+    </ProgressBar>
+
+
+    <TextView
+        android:id="@+id/tv_thread"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+include ':app', ':actionbar', ':listview', ':dialog', ':appservice', ':broadcast_reciver', ':mythread', ':Storage', ':database', ':maptest', ':contentproviderTest', ':facbookintegration', ':twitterintegrationtest'

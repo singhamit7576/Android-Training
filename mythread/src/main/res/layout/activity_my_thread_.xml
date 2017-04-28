@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.Thread_Main_Activity.MyThread_Activity">
+
+
+    <Button
+        android:id="@+id/btn_Timer"
+        android:text="@string/timer_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_below="@+id/btn_Timer"
+        android:text="@string/handler_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_AsynTask"
+        android:layout_below="@+id/btn_handler"
+        android:text="@string/asyn_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_textdownload"
+        android:layout_below="@+id/btn_AsynTask"
+        android:text="@string/background_asyn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_Time_Data"
+        android:layout_below="@+id/btn_textdownload"
+        android:text="@string/timer_download_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_handler_data"
+        android:layout_below="@+id/btn_Time_Data"
+        android:text="@string/handler_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/Btn_Xml_Parse"
+        android:layout_below="@+id/btn_handler_data"
+        android:text="@string/xml_parse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/Btn_Xml_Parse_List"
+        android:layout_below="@+id/Btn_Xml_Parse"
+        android:text="@string/xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_below="@+id/Btn_Xml_Parse_List"
+        android:text="@string/json_parse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_jsonlist"
+        android:text="@string/json_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Btn_Xml_Parse_List"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/btn_jsonExpand"
+        android:text="@string/jason_expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Btn_Xml_Parse_List"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_reverse"
+        android:text="@string/tojson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+
+</RelativeLayout>

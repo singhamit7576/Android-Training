@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">StorageSharedPrefrences</string>
+    <string name="save">SAVE</string>
+    <string name="retrive">Retrive</string>
+    <string name="shared_prefrence_class_object">Shared Prefrence Class Object</string>
+    <string name="shared_prefrence_list">Shared Prefrence List</string>
+    <string name="retrive_data">Retrive Data</string>
+    <string name="name">Ram</string>
+    <string name="NAME">NAME</string>
+    <string name="ADDress">Address</string>
+
+    <string name="address">Delhi</string>
+    <string name="listactivity">ListActivity</string>
+    <string name="save_in_internal_storage">save in Internal storage</string>
+    <string name="read_from_internal_storage">read from Internal storage</string>
+    <string name="read_from_external_storage">Read From External storage</string>
+    <string name="save_in_external_storage">Save in External Storage</string>
+    <string name="internal_and_external_storage">INTERNAL AND EXTERNAL STORAGE</string>
+    <string name="select_image">select Image</string>
+</resources>

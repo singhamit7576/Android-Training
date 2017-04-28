@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FacbookIntegration</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="forgetpassword">forgetpassword</string>
+    <string name="checkbox">checkbox</string>
+    <string name="login">Login</string>
+    <string name="signup">signup</string>
+    <string name="sign">Sign</string>
+    <string name="facebook_app_id">632705686912526</string>
+    <string name="show_details">Show details</string>
+    <string name="share">Share</string>
+    <string name="delete_post">Delete Post</string>
+
+</resources>

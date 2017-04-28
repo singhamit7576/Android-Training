@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.example.appservice.ui.Onbound.BinderActivity">
+
+    <ImageButton
+        android:id="@+id/image"
+        android:src="@drawable/playit"
+        android:layout_width="match_parent"
+        android:background="@color/transparent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/play"
+        />
+
+
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:text="@string/play"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_below="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:text="@string/stop"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</RelativeLayout>
